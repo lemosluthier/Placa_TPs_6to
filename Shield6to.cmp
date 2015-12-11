@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = lun 07 dic 2015 10:44:14 ART
+
+BeginCmp
+TimeStamp = /56644CF6;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56644D16;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56644D34;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /56644D07;
+Reference = C4;
+ValeurCmp = 1uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56644D25;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56644880;
+Reference = DS1;
+ValeurCmp = LCD16X2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /566448E1;
+Reference = J1;
+ValeurCmp = DB9;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5664570D;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56645757;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56645AF8;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /56648303;
+Reference = P2;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /566482F7;
+Reference = P3;
+ValeurCmp = CONN_9;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /56647247;
+Reference = P4;
+ValeurCmp = CONN_9;
+IdModule  = SIL-9;
+EndCmp
+
+BeginCmp
+TimeStamp = /566482FD;
+Reference = P5;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /56645A10;
+Reference = P6;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /566479E7;
+Reference = P7;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /56648383;
+Reference = P8;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5664508A;
+Reference = RV1;
+ValeurCmp = 10K;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56645751;
+Reference = RV2;
+ValeurCmp = 10K;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5664516B;
+Reference = RV3;
+ValeurCmp = 10K;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /56645347;
+Reference = U***1;
+ValeurCmp = PIC18F4550;
+IdModule  = DIP-40__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /566448BA;
+Reference = U1;
+ValeurCmp = MAX232;
+IdModule  = DIP-16__300;
+EndCmp
+
+EndListe
