@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Shield6to-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,10 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:18f4550
-LIBS:pic18f4550_tqfp
-LIBS:EEST1
-LIBS:Shield6to-cache
+LIBS:Shield6to_KC4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -53,7 +49,7 @@ U 1 1 56644880
 P 8250 4000
 F 0 "DS1" H 7450 4400 40  0000 C CNN
 F 1 "LCD16X2" H 8950 4400 40  0000 C CNN
-F 2 "WC1602A" H 8250 3950 35  0000 C CIN
+F 2 "Display:RC1602A" H 8250 3950 35  0001 C CIN
 F 3 "~" H 8250 4000 60  0000 C CNN
 	1    8250 4000
 	1    0    0    -1  
@@ -64,7 +60,7 @@ U 1 1 566448E1
 P 10550 2500
 F 0 "J1" H 10550 3050 70  0000 C CNN
 F 1 "DB9" H 10550 1950 70  0000 C CNN
-F 2 "Connect:DB9MC" H 10550 2500 60  0001 C CNN
+F 2 "Connect:DB9FC" H 10550 2500 60  0001 C CNN
 F 3 "" H 10550 2500 60  0000 C CNN
 	1    10550 2500
 	1    0    0    1   
@@ -87,7 +83,7 @@ U 1 1 56644CF6
 P 7550 1400
 F 0 "C1" H 7600 1500 40  0000 L CNN
 F 1 "1uF" H 7600 1300 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 7650 1250 30  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 7650 1250 30  0000 C CNN
 F 3 "~" H 7550 1400 300 0000 C CNN
 	1    7550 1400
 	1    0    0    -1  
@@ -98,7 +94,7 @@ U 1 1 56644D07
 P 7550 1900
 F 0 "C4" H 7600 2000 40  0000 L CNN
 F 1 "1uF" H 7600 1800 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 7650 1750 30  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 7650 1750 30  0000 C CNN
 F 3 "~" H 7550 1900 300 0000 C CNN
 	1    7550 1900
 	1    0    0    -1  
@@ -109,7 +105,7 @@ U 1 1 56644D16
 P 9650 1400
 F 0 "C2" H 9700 1500 40  0000 L CNN
 F 1 "1uF" H 9700 1300 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 9750 1250 30  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 9750 1250 30  0000 C CNN
 F 3 "~" H 9650 1400 300 0000 C CNN
 	1    9650 1400
 	-1   0    0    1   
@@ -120,7 +116,7 @@ U 1 1 56644D25
 P 9650 2000
 F 0 "C5" H 9700 2100 40  0000 L CNN
 F 1 "1uF" H 9700 1900 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 9750 1850 30  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 9750 1850 30  0000 C CNN
 F 3 "~" H 9650 2000 300 0000 C CNN
 	1    9650 2000
 	1    0    0    -1  
@@ -131,7 +127,7 @@ U 1 1 56644D34
 P 10150 1400
 F 0 "C3" H 10200 1500 40  0000 L CNN
 F 1 "10uF" H 10200 1300 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L11_P2" H 10250 1250 30  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 10250 1250 30  0000 C CNN
 F 3 "~" H 10150 1400 300 0000 C CNN
 	1    10150 1400
 	1    0    0    -1  
@@ -175,7 +171,7 @@ U 1 1 5664508A
 P 2850 1350
 F 0 "RV1" H 2850 1250 50  0000 C CNN
 F 1 "10K" H 2850 1350 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Bourns_3006Y_Angular_ScrewFront" H 2850 1350 60  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_3005_Angular_ScrewFront" H 2850 1350 60  0001 C CNN
 F 3 "~" H 2850 1350 60  0000 C CNN
 	1    2850 1350
 	-1   0    0    1   
@@ -230,7 +226,7 @@ U 1 1 5664516B
 P 6950 4750
 F 0 "RV3" H 6950 4650 50  0000 C CNN
 F 1 "10K" H 6950 4750 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Bourns_3006Y_Angular_ScrewFront" H 6950 4750 60  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_3005_Angular_ScrewFront" H 6950 4750 60  0001 C CNN
 F 3 "~" H 6950 4750 60  0000 C CNN
 	1    6950 4750
 	0    1    1    0   
@@ -241,7 +237,7 @@ U 1 1 56645347
 P 4600 4900
 F 0 "U***1" H 4600 5000 70  0000 C CNN
 F 1 "PIC18F4550" H 4600 4800 70  0000 C CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm_LongPads" H 4600 4900 60  0001 C CNN
+F 2 "Housings_DIP:DIP-40_W25.4mm_LongPads" H 4600 4900 60  0001 C CNN
 F 3 "" H 4600 4900 60  0000 C CNN
 	1    4600 4900
 	1    0    0    -1  
@@ -307,7 +303,7 @@ U 1 1 5664570D
 P 2850 1800
 F 0 "JP1" H 2850 1950 60  0000 C CNN
 F 1 "JUMPER" H 2850 1720 40  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2850 1800 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2850 1800 60  0001 C CNN
 F 3 "~" H 2850 1800 60  0000 C CNN
 	1    2850 1800
 	0    1    1    0   
@@ -318,7 +314,7 @@ U 1 1 56645751
 P 3600 1350
 F 0 "RV2" H 3600 1250 50  0000 C CNN
 F 1 "10K" H 3600 1350 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Bourns_3006Y_Angular_ScrewFront" H 3600 1350 60  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_3005_Angular_ScrewFront" H 3600 1350 60  0001 C CNN
 F 3 "~" H 3600 1350 60  0000 C CNN
 	1    3600 1350
 	-1   0    0    1   
@@ -329,7 +325,7 @@ U 1 1 56645757
 P 3600 1800
 F 0 "JP2" H 3600 1950 60  0000 C CNN
 F 1 "JUMPER" H 3600 1720 40  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3600 1800 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3600 1800 60  0001 C CNN
 F 3 "~" H 3600 1800 60  0000 C CNN
 	1    3600 1800
 	0    1    1    0   
@@ -368,7 +364,7 @@ U 1 1 56645AF8
 P 6000 3900
 F 0 "P1" V 5950 3900 60  0000 C CNN
 F 1 "CONN_8" V 6050 3900 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 6000 3900 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 6000 3900 60  0001 C CNN
 F 3 "" H 6000 3900 60  0000 C CNN
 	1    6000 3900
 	1    0    0    -1  
@@ -379,7 +375,7 @@ U 1 1 56647247
 P 2650 4050
 F 0 "P4" V 2600 4050 60  0000 C CNN
 F 1 "CONN_9" V 2700 4050 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x09" H 2650 4050 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x09" H 2650 4050 60  0001 C CNN
 F 3 "" H 2650 4050 60  0000 C CNN
 	1    2650 4050
 	-1   0    0    -1  
@@ -390,7 +386,7 @@ U 1 1 566479E7
 P 9950 5500
 F 0 "P7" V 9900 5500 60  0000 C CNN
 F 1 "CONN_8" V 10000 5500 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 9950 5500 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 9950 5500 60  0001 C CNN
 F 3 "" H 9950 5500 60  0000 C CNN
 	1    9950 5500
 	1    0    0    -1  
@@ -401,7 +397,7 @@ U 1 1 566482F7
 P 1950 4050
 F 0 "P3" V 1900 4050 60  0000 C CNN
 F 1 "CONN_9" V 2000 4050 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x09" H 1950 4050 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x09" H 1950 4050 60  0001 C CNN
 F 3 "" H 1950 4050 60  0000 C CNN
 	1    1950 4050
 	-1   0    0    -1  
@@ -412,7 +408,7 @@ U 1 1 56648303
 P 6600 3900
 F 0 "P2" V 6550 3900 60  0000 C CNN
 F 1 "CONN_8" V 6650 3900 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 6600 3900 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 6600 3900 60  0001 C CNN
 F 3 "" H 6600 3900 60  0000 C CNN
 	1    6600 3900
 	1    0    0    -1  
@@ -423,7 +419,7 @@ U 1 1 56648383
 P 10550 5500
 F 0 "P8" V 10500 5500 60  0000 C CNN
 F 1 "CONN_8" V 10600 5500 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 10550 5500 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 10550 5500 60  0001 C CNN
 F 3 "" H 10550 5500 60  0000 C CNN
 	1    10550 5500
 	1    0    0    -1  
@@ -434,7 +430,7 @@ U 1 1 56645A10
 P 2650 5100
 F 0 "P6" V 2600 5100 60  0000 C CNN
 F 1 "CONN_8" V 2700 5100 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 2650 5100 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 2650 5100 60  0001 C CNN
 F 3 "" H 2650 5100 60  0000 C CNN
 	1    2650 5100
 	-1   0    0    1   
@@ -445,7 +441,7 @@ U 1 1 566482FD
 P 1950 5100
 F 0 "P5" V 1900 5100 60  0000 C CNN
 F 1 "CONN_8" V 2000 5100 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 1950 5100 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x08" H 1950 5100 60  0001 C CNN
 F 3 "" H 1950 5100 60  0000 C CNN
 	1    1950 5100
 	-1   0    0    1   
@@ -804,7 +800,7 @@ U 1 1 566F5081
 P 8400 1900
 F 0 "U2" H 7950 2750 50  0000 L CNN
 F 1 "MAX232" H 8600 2750 50  0000 L CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_LongPads" H 8400 1900 50  0001 C CNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_LongPads" H 8400 1900 50  0001 C CNN
 F 3 "" H 8400 1900 50  0000 C CNN
 	1    8400 1900
 	1    0    0    -1  
