@@ -462,7 +462,7 @@ F 3 "" H 3150 4550 60  0000 C CNN
 	1    3150 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 5150 0    60   Input ~ 0
+Text GLabel 7650 5200 0    60   Input ~ 0
 En
 Text GLabel 7650 5000 0    60   Input ~ 0
 RS
@@ -471,19 +471,19 @@ Wire Wire Line
 Wire Wire Line
 	7800 5000 7800 4500
 Wire Wire Line
-	7650 5150 8000 5150
+	7650 5200 8000 5200
 Wire Wire Line
-	8000 5150 8000 4500
+	8000 5200 8000 4500
 Text GLabel 3550 4100 2    60   Input ~ 0
 En
 Text GLabel 3550 4300 2    60   Input ~ 0
 RS
-Text GLabel 7400 5250 0    60   Input ~ 0
+Text GLabel 7400 5100 0    60   Input ~ 0
 R/W
 Wire Wire Line
-	7400 5250 7900 5250
+	7400 5100 7900 5100
 Wire Wire Line
-	7900 5250 7900 4500
+	7900 5100 7900 4500
 Text GLabel 3250 4200 2    60   Input ~ 0
 R/W
 Text Label 4450 4600 0    60   ~ 0
@@ -648,7 +648,7 @@ L SW_PUSH SW4
 U 1 1 5675F25B
 P 2350 6900
 F 0 "SW4" H 2350 7143 50  0000 C CNN
-F 1 "SW_PUSH" H 2350 7043 50  0000 C CNN
+F 1 "BOT" H 2350 7043 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 2350 6900 50  0001 C CNN
 F 3 "" H 2350 6900 50  0000 C CNN
 	1    2350 6900
@@ -856,16 +856,16 @@ Wire Wire Line
 $Comp
 L R R6
 U 1 1 5679C878
-P 8900 4650
-F 0 "R6" H 8970 4700 50  0000 L CNN
-F 1 "1K" H 8970 4600 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8830 4650 50  0001 C CNN
-F 3 "" H 8900 4650 50  0000 C CNN
-	1    8900 4650
-	1    0    0    -1  
+P 9150 4900
+F 0 "R6" H 9220 4950 50  0000 L CNN
+F 1 "1K" H 9220 4850 50  0000 L CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 9080 4900 50  0001 C CNN
+F 3 "" H 9150 4900 50  0000 C CNN
+	1    9150 4900
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8900 4800 9550 4800
+	9550 4700 9550 4900
 $Comp
 L GND #PWR020
 U 1 1 5679C9B2
@@ -892,8 +892,6 @@ F 3 "" H 9550 4700 60  0000 C CNN
 	1    9550 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 4800 9550 4700
 $Comp
 L SW_PUSH SW5
 U 1 1 5679D6A7
@@ -1008,4 +1006,12 @@ Text Label 8700 5400 0    60   ~ 0
 RD6
 Text Label 8800 5300 0    60   ~ 0
 RD7
+Text Label 8900 4800 0    60   ~ 0
+LED+
+Wire Wire Line
+	9550 4900 9300 4900
+Wire Wire Line
+	9000 4900 8900 4900
+Wire Wire Line
+	8900 4900 8900 4500
 $EndSCHEMATC
