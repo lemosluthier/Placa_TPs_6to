@@ -576,17 +576,17 @@ Text Label 1950 4200 0    60   ~ 0
 RE1
 Text Label 1950 4300 0    60   ~ 0
 RE2
-Text Label 2800 5100 0    60   ~ 0
+Text Label 2800 4800 0    60   ~ 0
 RE3
 Text Label 3050 2400 0    60   ~ 0
 RA1
 Text Label 2300 2400 0    60   ~ 0
 RA0
-Text Label 2800 4800 0    60   ~ 0
-RC0
 Text Label 2800 4900 0    60   ~ 0
-RC1
+RC0
 Text Label 2800 5000 0    60   ~ 0
+RC1
+Text Label 2800 5100 0    60   ~ 0
 RC2
 Text Label 2800 4600 0    60   ~ 0
 VDD
@@ -783,17 +783,6 @@ Wire Wire Line
 Text Label 4000 1500 0    60   ~ 0
 VDD
 $Comp
-L R R5
-U 1 1 5676C37D
-P 5950 2350
-F 0 "R5" V 5755 2350 50  0000 C CNN
-F 1 "3K3" V 5855 2350 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5880 2350 50  0001 C CNN
-F 3 "" H 5950 2350 50  0000 C CNN
-	1    5950 2350
-	0    1    1    0   
-$EndComp
-$Comp
 L GND-RESCUE-Shield6to #PWR019
 U 1 1 5676C416
 P 6550 2450
@@ -952,13 +941,13 @@ Text Label 1950 4600 0    60   ~ 0
 VDD
 Text Label 1950 4700 0    60   ~ 0
 VSS
-Text Label 1950 4800 0    60   ~ 0
-RC0
 Text Label 1950 4900 0    60   ~ 0
-RC1
+RC0
 Text Label 1950 5000 0    60   ~ 0
-RC2
+RC1
 Text Label 1950 5100 0    60   ~ 0
+RC2
+Text Label 1950 4800 0    60   ~ 0
 RE3
 Text Label 1950 5200 0    60   ~ 0
 RD0
@@ -1014,4 +1003,6 @@ Wire Wire Line
 	9000 4900 8900 4900
 Wire Wire Line
 	8900 4900 8900 4500
+Wire Wire Line
+	5800 2350 6100 2350
 $EndSCHEMATC
